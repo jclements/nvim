@@ -1,0 +1,4 @@
+C:/Users/jclements/AppData/Local/nvim/build/CMakeFiles/hello_world.dir
+C:/Users/jclements/AppData/Local/nvim/build/CMakeFiles/cpp_hello_world.dir
+C:/Users/jclements/AppData/Local/nvim/build/CMakeFiles/edit_cache.dir
+C:/Users/jclements/AppData/Local/nvim/build/CMakeFiles/rebuild_cache.dir
