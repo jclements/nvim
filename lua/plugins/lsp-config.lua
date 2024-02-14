@@ -17,7 +17,7 @@ return {
 	{
 		"neovim/nvim-lspconfig",
 		config = function()
-			require("java").setup()
+			--require("java").setup()
 			local lspconfig = require("lspconfig")
 			lspconfig.lua_ls.setup({})
 			lspconfig.clangd.setup({
@@ -26,7 +26,7 @@ return {
 					"--suggest-missing-includes",
 					--'--query-driver="C:\\MinGW\\bin\\g++*","C:\\MinGW\\bin\\gcc*',
 				},
-				filetypes = { "c", "cpp", "objc", "objcpp" },
+				filetypes = { "c", "objc" },
 			})
 			lspconfig.jdtls.setup({})
 			lspconfig.tsserver.setup({})
