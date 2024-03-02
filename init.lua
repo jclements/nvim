@@ -11,7 +11,11 @@ if not vim.loop.fs_stat(lazypath) then
 end
 
 vim.opt.rtp:prepend(lazypath)
-vim.o.shell = "powershell.exe"
-
+-- change shell to powershell if not linux
+if(not vim.fn.has('macunix'))
+then 
+	vim.o.shell = "powershell.exe"
+end
+	
 require("vim-options")
 require("lazy").setup("plugins")
