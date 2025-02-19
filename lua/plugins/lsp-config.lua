@@ -31,6 +31,7 @@ return {
 				cmd = {
 					"clangd",
 					"--suggest-missing-includes",
+					--"--compile-commands-dir=/home/jeremy/code/c/include",
 					--'--query-driver="C:\\MinGW\\bin\\g++*","C:\\MinGW\\bin\\gcc*',
 				},
 				filetypes = { "c", "objc", "h", "cpp" },
